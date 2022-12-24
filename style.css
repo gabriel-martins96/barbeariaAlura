@@ -256,6 +256,7 @@ td, th {
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .centralizador{
 		width: auto;
+		padding:0 50px 0 50px;
 	}
 
 	h1 {
@@ -268,5 +269,8 @@ td, th {
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
+	}
+	body{
+		
 	}
 }
