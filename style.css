@@ -94,7 +94,8 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
+main, label, input {
+	text-align: center;
 	
 }
 
@@ -109,10 +110,11 @@ form label, form legend {
 }
 
 .input-padrao {
-	display: block;
+	display: inline-block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
+	text-align: center;
 }
 
 .checkbox {
@@ -139,6 +141,8 @@ form label, form legend {
 
 table {
 	margin: 20px 0 40px;
+	text-align: center;
+	display: inline-block;
 }
 
 thead {
@@ -250,7 +254,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .centralizador{
 		width: auto;
 	}
 
